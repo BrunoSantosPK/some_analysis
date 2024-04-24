@@ -1,0 +1,23 @@
+Volumes HQ: Este conjunto de dados compila volumes de quadrinhos lançados no Brasil. Foi obtido por meio de raspagem de dados na Amazon e uma limpeza primária para ajustar valores e textos, deixando pronto para entrar em pipelines de análise.
+
+Tema: quadrinhos, mangá, cultura pop
+
+Contato: bruno.19ls@gmail.com
+
+Licença: GNU GPL
+
+Campos:
+    -- format: informa o tipo de capa do volume; existem diversas denominações para formato de capa, que podem variar entre editoras;
+    -- download_at: data em que os dados foram extraídos no formato yyyy-mm-dd;
+    -- full_price: preço de capa, em R$, do volume;
+    -- name: nome do volume como está cadastrado na loja (Amazon);
+    -- publisher: nome da editora como está cadastrado na loja (Amazon); existem variações de escrita;
+    -- release_date: data de lançamento do volume no formato yyyy-mm-dd;
+    -- pages: quantidade de páginas existentes no volume
+    -- ISBN-10: número de registro no formato antigo (antes de 2007);
+    -- ISBN-13: número de registro no formato atual;
+    -- customers_review: média das notas dos compradores (máximo de 5);
+    -- about: resumo textual existente na página da loja (Amazon); quebras de linha foram e espaços em branco em excesso foram removidos;
+    -- height: altura do volume em cm; apresenta anomalias;
+    -- width: largura do volume em cm;
+    -- depth: profundidade do volume em cm;
